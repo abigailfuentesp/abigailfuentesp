@@ -31,51 +31,6 @@ color: #FFFFFF;
 </head>
 <body>
 
-<audio controls="controls">
-<source src="docs/to-build-a-home-the-cinematic-orchestra1.mp3" type="audio/mp3"/>
-Your browser does not support the audio element.
-</audio>
-<br> <br>
-<script>
-function cambiarTrack(track) {
-var path =  track.getAttribute("path")
-viejo_audio = document.getElementById("reproductor")
-audio_padre = viejo_audio.parentNode
-audio_padre.removeChild(viejo_audio)
-nuevo_audio = document.createElement("audio")
-nuevo_audio.setAttribute("id","reproductor")
-nuevo_audio.setAttribute("controls", "controls")
-// nuevo_audio.setAttribute("autoplay", "autoplay")
-source = document.createElement("source")
-source.setAttribute("src", path)
-source.setAttribute("type", "audio/mpeg")
-source.setAttribute("id", "reproductorSource")
-nuevo_audio.appendChild(source)
-audio_padre.appendChild(nuevo_audio)}
-function cargarReproductor() {
-var select = document.getElementById("selectTrack")
-var path = select.options[0].getAttribute("path")
-nuevo_audio = document.createElement("audio")
-nuevo_audio.setAttribute("id","reproductor")
-nuevo_audio.setAttribute("controls", "controls")
-source = document.createElement("source")
-source.setAttribute("src", path)
-source.setAttribute("type", "audio/mpeg")
-source.setAttribute("id", "reproductorSource")
-nuevo_audio.appendChild(source)
-padre = document.getElementById("reproductorBox")
-padre.appendChild(nuevo_audio)
-}
-</script>
-<div id="reproductorBox"></div>
-<select id = "selectTrack" multiple onchange="cambiarTrack(this.options[this.selectedIndex]);">
-<option path="docs/el_disco_de_newton1.mp3">ensayo sobre el color (cristina r. garza)</option>
-<option path="docs/magia infrarrealista perro vs pacos1.mp3">magia infrarrealista (bel&eacute;n roca)</option>
-<option path="docs/mudanza__1.mp3">mudanza (v. gerber)</option>
-<option path="docs/títulos para poemas1.mp3">t&iacute;tulos para poemas (a. fuentes)</option>
-</select>
-<script>cargarReproductor();</script>
-
 <table border="0" cellspacing="0" cellpadding="0">
 <tr>
 <td colspan="2">
@@ -214,5 +169,57 @@ padre.appendChild(nuevo_audio)
 <td colspan="2">&nbsp;</td>
 </tr>
 </table>
+<figure>
+<figcaption>best song ever:</figcaption>
+<br>
+<audio controls
+src="docs/to-build-a-home-the-cinematic-orchestra1.mp3">
+Your browser does not support the <code> audio </code>
+</audio>
+</figure>
+<br> <br>
+<script>
+function cambiarTrack(track) {
+var path =  track.getAttribute("path")
+viejo_audio = document.getElementById("reproductor")
+audio_padre = viejo_audio.parentNode
+audio_padre.removeChild(viejo_audio)
+nuevo_audio = document.createElement("audio")
+nuevo_audio.setAttribute("id","reproductor")
+nuevo_audio.setAttribute("controls", "controls")
+// nuevo_audio.setAttribute("autoplay", "autoplay")
+source = document.createElement("source")
+source.setAttribute("src", path)
+source.setAttribute("type", "audio/mpeg")
+source.setAttribute("id", "reproductorSource")
+nuevo_audio.appendChild(source)
+audio_padre.appendChild(nuevo_audio)}
+function cargarReproductor() {
+var select = document.getElementById("selectTrack")
+var path = select.options[0].getAttribute("path")
+nuevo_audio = document.createElement("audio")
+nuevo_audio.setAttribute("id","reproductor")
+nuevo_audio.setAttribute("controls", "controls")
+source = document.createElement("source")
+source.setAttribute("src", path)
+source.setAttribute("type", "audio/mpeg")
+source.setAttribute("id", "reproductorSource")
+nuevo_audio.appendChild(source)
+padre = document.getElementById("reproductorBox")
+padre.appendChild(nuevo_audio)
+}
+</script>
+<figure>
+<figcaption>poetry i like:</figcaption>
+<br>
+<div id="reproductorBox"></div>
+<select id = "selectTrack" multiple onchange="cambiarTrack(this.options[this.selectedIndex]);">
+<option path="docs/el_disco_de_newton1.mp3">ensayo sobre el color (cristina r. garza)</option>
+<option path="docs/magia infrarrealista perro vs pacos1.mp3">magia infrarrealista (bel&eacute;n roca)</option>
+<option path="docs/mudanza__1.mp3">mudanza (v. gerber)</option>
+<option path="docs/títulos para poemas1.mp3">t&iacute;tulos para poemas (a. fuentes)</option>
+</select>
+<script>cargarReproductor();</script>
+</figure>
 </body>
 </html>
