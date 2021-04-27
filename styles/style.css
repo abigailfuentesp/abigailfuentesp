@@ -1,0 +1,10 @@
+body,td,th,tr,td{
+      font-family: Courier New, Courier, mono;
+      font-size:larg;
+      color: white;}
+      a:link {color: white;}
+      a:visited {color: white;}
+      a:hover {color: white;}
+      a:active {color: white;}
+      .Estilo1 {font-size: small}
+      
