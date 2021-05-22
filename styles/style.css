@@ -4,6 +4,6 @@ body,td,th,tr,td{
       color: white;}
       a:link {color: white; font-size: 3vmin; line-height: 110%; max-width: 90%; left: 30%;}
       a:visited {color: white; font-size: 3vmin; line-height: 110%; max-width: 90%; left: 30%;}
-      a:hover {color: rgb(255, 0, 179); animation: pulse .06s 0.02s infinite steps(13, end); font-size: 5.9vmin; max-width: 90%; left: 30%; line-height: 110%;}
+      a:hover {color: rgb(255, 0, 0); animation: pulse .06s 0.02s infinite steps(13, end); font-size: 5.9vmin; max-width: 90%; left: 30%; line-height: 110%;}
       a:active {color: white; animation: backwards .02s 0.02s infinite steps(13, end); font-size: 4.5vmin; max-width: 90%; left: 30%; line-height: 110%;}
       .Estilo1 {font-size: small}
