@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
 body,td,th,tr,td{
       font-family: 'Fira Mono', monospace;
       font-size: 20px;
@@ -8,3 +10,5 @@ body,td,th,tr,td{
       a:hover {color: rgb(255, 0, 0); animation: pulse .06s 0.02s infinite steps(13, end); font-size: 5.9vmin; max-width: 90%; left: 30%; line-height: 110%;}
       a:active {color: white; animation: backwards .02s 0.02s infinite steps(13, end); font-size: 4.5vmin; max-width: 90%; left: 30%; line-height: 110%;}
       .Estilo1 {font-size: small}
+      .Estilo2 {background-image: url(https://media0.giphy.com/media/KcnbWfsuFr7JpgowGT/giphy.gif?cid=ecf05e47zzd724rukdgblgrd77zi45lcs2mk4mqib69sqvrk&rid=giphy.gif&ct=g); font-size: small}
+      .Titulos1 {color: white; font-family: 'Fira Mono', monospace; font-size: 22px; background-image: url(https://media0.giphy.com/media/KcnbWfsuFr7JpgowGT/giphy.gif?cid=ecf05e47zzd724rukdgblgrd77zi45lcs2mk4mqib69sqvrk&rid=giphy.gif&ct=g);}
