@@ -12,3 +12,9 @@ body,td,th,tr,td{
       .Estilo1 {font-size: small}
       .Estilo2 {background-image: url(https://media0.giphy.com/media/KcnbWfsuFr7JpgowGT/giphy.gif?cid=ecf05e47zzd724rukdgblgrd77zi45lcs2mk4mqib69sqvrk&rid=giphy.gif&ct=g); font-size: small}
       .Titulos1 {color: white; font-family: 'Fira Mono', monospace; font-size: 22px; background-image: url(https://media0.giphy.com/media/KcnbWfsuFr7JpgowGT/giphy.gif?cid=ecf05e47zzd724rukdgblgrd77zi45lcs2mk4mqib69sqvrk&rid=giphy.gif&ct=g);}
+      #container {width:100%;}
+      span#namezzz{float:left; background: grey;}
+      #generated {display:block; margin:0 auto; text-align:center; font-size:15px; width:100%; background:white; margin-top:200px; position:static; color:rgb(197, 197, 197);}
+      button {font-family: 'Fira Mono', monospace; display:block; position:static; margin:50px auto 50px auto; padding:10px 25px; font-size:20px; background:white; border:none;}
+      button:hover {font-family: 'Fira Mono', monospace; background: rgb(255, 0, 0);}
+      button:focus {outline:none;}
