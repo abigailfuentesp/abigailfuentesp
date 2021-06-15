@@ -1,2 +1,1 @@
-no sé
-hola
+no sé, hola.
