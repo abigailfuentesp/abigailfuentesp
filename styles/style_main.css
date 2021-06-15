@@ -44,7 +44,8 @@ body,td,th,tr,td{
             color: white;
             font-family: 'Fira Mono', monospace;
             font-size: 115%;
-            background-image:url(https://64.media.tumblr.com/tumblr_lxtwdhWV1M1r6j7rho1_1280.gif);}
+            background-image:url(https://64.media.tumblr.com/tumblr_lxtwdhWV1M1r6j7rho1_1280.gif);
+            background-size: cover;}
       
       #container {
             width: 100%;}
