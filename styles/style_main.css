@@ -4,7 +4,8 @@
 body,td,th,tr,td{
       font-family: 'Fira Mono', monospace;
       font-size: 20px;
-      color: white;}
+      color: white;
+      text-align: center;}
       
       a:link {
             color: white;
@@ -21,7 +22,7 @@ body,td,th,tr,td{
             left: 30%;}
 
       a:hover {
-            color: rgb(255, 0, 0); 
+            color: white; 
             animation: pulse .06s 0.02s infinite steps(13, end);
             font-size: 5.9vmin; 
             max-width: 90%;
@@ -37,19 +38,16 @@ body,td,th,tr,td{
             line-height: 110%;}
 
       .Estilo1 {
-            font-size: small}
+            font-size: small;}
 
       .Estilo2 {
-            background-image: url(https://media0.giphy.com/media/KcnbWfsuFr7JpgowGT/giphy.gif?cid=ecf05e47zzd724rukdgblgrd77zi45lcs2mk4mqib69sqvrk&rid=giphy.gif&ct=g);
-            background-size: cover;
-            font-size: small}
+            font-size: small;}
 
       .Titulos1 {
             color: white;
             font-family: 'Fira Mono', monospace;
             font-size: 22px;
-            background-image: url(https://media0.giphy.com/media/KcnbWfsuFr7JpgowGT/giphy.gif?cid=ecf05e47zzd724rukdgblgrd77zi45lcs2mk4mqib69sqvrk&rid=giphy.gif&ct=g);
-            background-size: cover;}
+            background-color: #288dd1;}
       
       #container {
             width:100%;}
@@ -64,8 +62,6 @@ body,td,th,tr,td{
             text-align:center;
             font-size:15px; width:100%;
             color:white;
-            background-image: url(https://media0.giphy.com/media/KcnbWfsuFr7JpgowGT/giphy.gif?cid=ecf05e47zzd724rukdgblgrd77zi45lcs2mk4mqib69sqvrk&rid=giphy.gif&ct=g);
-            background-size: cover;
             margin-top:200px;
             position:static;}
 
@@ -80,7 +76,7 @@ body,td,th,tr,td{
 
       button:hover {
             font-family: 'Fira Mono', monospace;
-            background: rgb(124, 45, 189)}
+            background: #288dd1}
 
       button:focus {
             outline:none;}
