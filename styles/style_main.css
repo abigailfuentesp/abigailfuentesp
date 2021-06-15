@@ -3,20 +3,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
 body,td,th,tr,td{
       font-family: 'Fira Mono', monospace;
-      font-size: 20px;
+      font-size: 100%;
       color: white;
       text-align: center;}
       
       a:link {
             color: white;
-            font-size: 3vmin;
+            font-size: 100%;
             line-height: 110%;
             max-width: 90%;
             left: 30%;}
 
       a:visited {
             color: white;
-            font-size: 3vmin;
+            font-size: 100%;
             line-height: 110%;
             max-width: 90%;
             left: 30%;}
@@ -37,16 +37,13 @@ body,td,th,tr,td{
             left: 30%;
             line-height: 110%;}
 
-      .Estilo1 {
-            font-size: small;}
-
       .Estilo2 {
-            font-size: small;}
+            font-size: 80%;}
 
       .Titulos1 {
             color: white;
             font-family: 'Fira Mono', monospace;
-            font-size: 22px;
+            font-size: 115%;
             background-image:url(https://64.media.tumblr.com/tumblr_lxtwdhWV1M1r6j7rho1_1280.gif);}
       
       #container {
@@ -60,7 +57,7 @@ body,td,th,tr,td{
             display:block;
             margin:0 auto;
             text-align:center;
-            font-size: 15px; width: 100%;
+            font-size: 100%; width: 100%;
             color:white;
             margin-top: 200px;
             margin-bottom: 200px;
