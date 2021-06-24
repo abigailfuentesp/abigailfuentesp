@@ -1,21 +1,11 @@
 {
-    "origin": [
-    "#element# #image-art#",
-    "#people# #image-art#",
-    "#people#, pero al final de todo #element# #image-art#",
-    "#celu#"
-    ],
+    "origin": ["#element# #image-art#", "#people# #image-art#", "#people#, pero al final de todo #element# #image-art#", "#celu#"],
     
-    "element" : ["#a# + #a# #c# es amor eterno",
-    "#a# + #a# #d# ser amor eterno",
-    "#a# le rompió el corazón 💔 a #a#",
-    "ojalá algún día #a# se dé cuenta que #a# es su alma gemela 💘"
-    ],
+    "element" : ["#a# + #a# #c# es amor eterno", "#a# + #a# #d# ser amor eterno", "#a# le rompió el corazón 💔 a #a#", "ojalá algún día #a# se dé cuenta que #a# es su alma gemela 💘"],
     
     "number": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99", "100"],
     
-    "people" : ["#someone# estaba con #someone# en compañía de #pet# yendo a #building# y recordaron a #author# diciendo que #thing# es #thing#",
-    "tú estabas con #someone# en compañía de #pet# yendo a #building# y recordaste a #author# diciendo que #thing# es #thing#"],
+    "people" : ["#someone# estaba con #someone# en compañía de #pet# yendo a #building# y recordaron a #author# diciendo que #thing# es #thing#", "tú estabas con #someone# en compañía de #pet# yendo a #building# y recordaste a #author# diciendo que #thing# es #thing#"],
     
     "a" : ["Actinio Ac, 89", "Aluminio Al, 13", "Americio Am, 95", "Antimonio Sb, 51", "Argón Ar, 18", "Arsénico As, 33", "Ástato At, 85", "Azufre S, 16", "Bario Ba, 56", "Berilio Be, 4", "Berkelio Bk, 97", "Bismuto Bi, 83", "Bohrio Bh, 107", "Boro B, 5", "Bromo Br, 35", "Cadmio Cd, 48", "Calcio Ca, 20", "Californio Cf, 98", "Carbono C, 6", "Cerio Ce, 58", "Cesio Cs, 55", "Cloro Cl, 17", "Cobalto Co, 27", "Cobre Cu, 29", "Copernicium NC, 112", "Cromo Cr, 24", "Curio Cm, 96", "Darmstadio Ds, 110", "Disprosio Dy, 66", "Dubnio Db, 105", "Einstenio Es, 99", "Erbio Er, 68", "Escandio Sc, 21", "Estaño Sn, 50", "Estroncio Sr, 38", "Europio Eu, 63", "Fermio Fm, 100", "Flerovium Fl, 114", "Fluor F, 9", "Fósforo P, 15", "Francio Fr, 87", "Gadolinio Gd, 64", "Galio Ga, 31", "Germanio Ge, 32", "Hafnio Hf, 72", "Hassio Hs, 108", "Helio He, 2", "Hidrógeno H, 1", "Hierro Fe, 26", "Holmio Ho, 67", "Indio In, 49", "Iodo I, 53", "Iridio Ir, 77", "Iterbio Yb, 70", "Itrio Y, 39", "Kryptón Kr, 36", "Lantano La, 57", "Lawrencio Lr, 103", "Litio Li, 3", "Livermorium Lv, 116", "Lutecio Lu, 71", "Magnesio Mg, 12", "Manganeso Mn, 25", "Meitnerio Mt, 109", "Mendelevio Md, 101", "Mercurio Hg, 80", "Molibdeno Mo, 42", "Moscovium Mc, 115", "Neodimio Nd, 60", "Neón Ne, 10", "Neptunio Np, 93", "Nihonium Nh, 113", "Niobio Nb, 41", "Níquel Ni, 28", "Nitrógeno N, 7", "Nobelio No, 102", "Oganesson Og, 118", "Oro Au, 79", "Osmio Os, 76", "Oxígeno O, 8", "Paladio Pd, 46", "Plata Ag, 47", "Platino Pt, 78", "Plomo Pb, 82", "Plutonio Pu, 94", "Polonio Po, 84", "Potasio K, 19", "Praseodimio Pr, 59", "Promecio Pm, 61", "Protactinio Pa, 91", "Radio Ra, 88", "Radón Rn, 86", "Renio Re, 75", "Rodio Rh, 45", "Roentgenium Rg, 111", "Rubidio Rb, 37", "Rutenio Ru, 44", "Rutherfordio Rf, 104", "Samario Sm, 62", "Seaborgio Sg, 106", "Selenio Se, 34", "Sílice Si, 14", "Sodio Na, 11", "Talio Tl, 81", "Tantalio Ta, 73", "Tecnecio Tc, 43", "Teluro Te, 52", "Tennessine Ts, 117", "Terbio Tb, 65", "Titanio Ti, 22", "Torio Th, 90", "Tulio Tm, 69", "Uranio U, 92", "Vanadio V, 23", "Wolframio W, 74", "Xenón Xe, 54", "Zinc Zn, 30", "Zirconio Zr, 40"],
     
@@ -70,9 +60,7 @@
     "{img https://abigailfuentesp.github.io/abigailfuentesp/docs/img/makeuponmyface.gif}"
     ],
     
-    "celu": [
-    "#virus_warning#\n◜▔▔▔▔◝\n|███████|\n|███████|\n|███████|\n|██..#someone#..██|\n|███████|\n|███████|\n|███████|\n◟▁▁▁▁◞"
-    ],
+    "celu": ["#virus_warning#\n◜▔▔▔▔◝\n|███████|\n|███████|\n|███████|\n|██..#someone#..██|\n|███████|\n|███████|\n|███████|\n◟▁▁▁▁◞"],
     
     "hours": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
     
@@ -80,35 +68,7 @@
     
     "time": ["#hours##day_night#"],
     
-    "security": [
-    "██████████ 100%",
-    "█████████░ 90%",
-    "████████░░ 80%",
-    "███████░░░ 70%",
-    "██████░░░░ 60%",
-    "█████░░░░░ 50%",
-    "████░░░░░░ 40%",
-    "███░░░░░░░ 30%",
-    "██░░░░░░░░ 20%",
-    "█░░░░░░░░░ 10%",
-    "░░░░░░░░░░ 0%"],
+    "security": ["██████████ 100%", "█████████░ 90%", "████████░░ 80%", "███████░░░ 70%","██████░░░░ 60%", "█████░░░░░ 50%","████░░░░░░ 40%", "███░░░░░░░ 30%", "██░░░░░░░░ 20%", "█░░░░░░░░░ 10%", "░░░░░░░░░░ 0%"],
     
-    "virus_warning": [
-    "Un virus ha invadido tu dispositivo, la maldad se ve así:",
-    "MALWARE DETECTADO. \n Recuerda actualizar tu antivirus",
-    "Al navegar en internet, tus datos son públicos.",
-    "No uses contraseñas menores a 15 carácteres en tus cuentas",
-    "biri biri bam bam",
-    "¡Warning! \n #number# infections found",
-    "PARA BAILAR LA BAMBAAAAA",
-    "Dormiste a las #time# y encuentras el siguiente msj en la pantalla:",
-    "Virus detected. \n Tu sistema operativo no podrá recuperarse. \n Dale un respiro a tu dispositivo.",
-    "Please install antivirus software and update your computer.",
-    "Tu crush no te ha respondido, deja ya de checar el celular.",
-    "¡Cierra ya todas tus aplicaciones y reinicia tu dispositivo!",
-    "Infection list:",
-    "Activando protección a tu corazón. \n Recuerda que la amenaza luce así:",
-    "The safe procedure could not be located in the .dll file",
-    "Security level: #security#"
-    ]
+    "virus_warning": ["Un virus ha invadido tu dispositivo, la maldad se ve así:", "MALWARE DETECTADO. \n Recuerda actualizar tu antivirus", "Al navegar en internet, tus datos son públicos.", "No uses contraseñas menores a 15 carácteres en tus cuentas", "biri biri bam bam", "¡Warning! \n #number# infections found", "PARA BAILAR LA BAMBAAAAA", "Dormiste a las #time# y encuentras el siguiente msj en la pantalla:", "Virus detected. \n Tu sistema operativo no podrá recuperarse. \n Dale un respiro a tu dispositivo.", "Please install antivirus software and update your computer.", "Tu crush no te ha respondido, deja ya de checar el celular.", "¡Cierra ya todas tus aplicaciones y reinicia tu dispositivo!", "Infection list:", "Activando protección a tu corazón. \n Recuerda que la amenaza luce así:", "The safe procedure could not be located in the .dll file", "Security level: #security#"]
     }
