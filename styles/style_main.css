@@ -41,16 +41,16 @@ body,td,th,tr,td{
             font-size: 80%;}
 
       .Titulos1 {
-            color: white;
+            color: whitesmoke;
             font-family: 'Fira Mono', monospace;
             font-size: 115%;
-            background-image:url(https://64.media.tumblr.com/tumblr_lxtwdhWV1M1r6j7rho1_1280.gif);
+            background-color: rgb(234, 102, 31);
             background-size: cover;}
       
       #container {
             width: 100%;}
 
-      span#namezzz{
+      span#namezzz {
             float:left;
             color:white;}
       
@@ -62,7 +62,8 @@ body,td,th,tr,td{
             color:white;
             margin-top: 200px;
             margin-bottom: 200px;
-            position:static;}
+            position:static;
+            background-color: rgb(255, 51, 184);}
 
       button {
             font-family: 'Fira Mono', monospace;
@@ -75,7 +76,7 @@ body,td,th,tr,td{
 
       button:hover {
             font-family: 'Fira Mono', monospace;
-            background: #288dd1}
+            background-color: rgb(163, 234, 31);}
 
       button:focus {
             outline:none;}
