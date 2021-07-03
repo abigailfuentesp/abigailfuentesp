@@ -4,7 +4,7 @@
 body,td,th,tr,td{
       font-family: 'Fira Mono', monospace;
       font-size: 100%;
-      color: white;
+      color:white;
       text-align: center;}
       
       a:link {
@@ -22,7 +22,7 @@ body,td,th,tr,td{
             left: 30%;}
 
       a:hover {
-            color: white; 
+            color: white;
             animation: pulse .06s 0.02s infinite steps(13, end);
             font-size: 5.9vmin; 
             max-width: 90%;
@@ -41,11 +41,9 @@ body,td,th,tr,td{
             font-size: 80%;}
 
       .Titulos1 {
-            color: whitesmoke;
-            font-family: 'Fira Mono', monospace;
             font-size: 115%;
-            background-color: rgb(234, 102, 31);
-            background-size: cover;}
+            /* background-color: rgb(234, 102, 31); */
+            /* background-size: cover; */}
       
       #container {
             width: 100%;}
@@ -63,7 +61,10 @@ body,td,th,tr,td{
             margin-top: 200px;
             margin-bottom: 200px;
             position:static;
-            background-color: rgb(255, 51, 184);}
+            /* background-color: rgb(255, 51, 184);} */
+            background-image: url("https://media1.giphy.com/media/xTiTnBDM8bHWQHCOxW/giphy.gif?cid=ecf05e47lbdbghp81q3jsiw5yluqj1saazkt5ctgl4xxmgpt&rid=giphy.gif");
+            background-position: center;
+            background-size: cover;}
 
       button {
             font-family: 'Fira Mono', monospace;
@@ -71,12 +72,12 @@ body,td,th,tr,td{
             margin: 50px auto 50px auto;
             padding: 10px 25px;
             font-size: 20px;
-            background:white;
+            background: white;
             border:none;}
 
       button:hover {
             font-family: 'Fira Mono', monospace;
-            background-color: rgb(163, 234, 31);}
+            background-color: rgb(236, 236, 236);}
 
       button:focus {
             outline:none;}
